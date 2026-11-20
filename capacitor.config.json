@@ -1,0 +1,9 @@
+{
+  "appId": "com.devabu.hexastack",
+  "appName": "Hexa Stack",
+  "webDir": "www",
+  "backgroundColor": "#0b1226",
+  "android": {
+    "allowMixedContent": false
+  }
+}

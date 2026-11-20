@@ -1,0 +1,20 @@
+{
+  "name": "hexa-stack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hexa Stack - offline hex tile stacking puzzle for Android",
+  "scripts": {
+    "sim": "node tools/sim.js 5",
+    "smoke": "node tools/smoke.js",
+    "start": "npx --yes http-server www -p 8080 -c-1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "jsdom": "^25.0.0"
+  }
+}
